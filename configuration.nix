@@ -75,6 +75,7 @@
     alacritty
     wl-clipboard
     nautilus
+    gh
 
     #emacs needs
     cmake
@@ -99,6 +100,7 @@
       init.defaultBranch = "main";
       push.autoSetupRemote = true;
     };
+
   };
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
