@@ -79,6 +79,9 @@
     wl-clipboard
     nautilus
     gh
+    xwayland-satellite
+    (discord.override { withMoonlight = true; })
+
 
     #emacs needs
     cmake
@@ -93,7 +96,6 @@
     nixd
     nixfmt
     libtool
-    (discord.override { withMoonlight = true; })
   ];
 
   programs.steam.enable = true;
